@@ -1,0 +1,6 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    scroll-behavior:smooth; 
+    background-color: #ededed !important;
+}
