@@ -41,7 +41,7 @@ export const portada = ({ darkMode, toggleDarkMode }) => {
               </div> 
           </div>
         </div>
-        <div className='col-sm-12 col-md-6 col-lg-6 portada-right'  data-aos="">
+        <div className='col-sm-12 col-md-6 col-lg-6 portada-right'  data-aos="zoom-in">
           <div className='contenedor-imagenes'  onClick={toggleDarkMode} >
             <span className='animolob'>
             <img className='portada-sin-color img-fluid sincolor' src={ImgSinColor} alt="Imagen sin color" o/>
