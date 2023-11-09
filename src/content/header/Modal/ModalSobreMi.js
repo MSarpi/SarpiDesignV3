@@ -42,7 +42,7 @@ function SobreMi() {
                     <br/>
                     En mi tiempo libre, disfruto dibujar y crear videojuegos RPG con RPG Maker, así como dar paseos y disfrutar de espacios verdes.
                 </Col>
-                <Col xs={12} md={12} lg={12} xl={6} data-aos="fade-down-left">
+                <Col xs={12} md={12} lg={12} xl={6}>
                     <img className='img-modal' src={ImgSinColor}/>
                 </Col>
             </Row>

@@ -16,17 +16,17 @@ function Empresas() {
   return (
     <Container className='container_empresa' id='empresas'>
         <div className='margin-top'></div>
-        <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-down"><span className='secciones'>Empresas</span></p></strong>
+        <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-up"><span className='secciones'>Empresas</span></p></strong>
         <p className='Sub-titulo-secciones' data-aos="fade-down">Estas son las empresas a las que he dado mis servicios como Programador.</p>
         <Row className='img-empresas'> 
-            <Col xl={6} lg={6} md={12} sm={12} data-aos="zoom-out-down">
+            <Col xl={6} lg={6} md={12} sm={12} >
             <a href='https://sitio.consorcio.cl/home' target='_BLANK'>
               <img className='img-empresa' src={Consorcio}/>
               <img className='img-empresa-bw' src={Consorciobw}/>
             </a>
 
             </Col>
-            <Col xl={6} lg={6} md={12} sm={12} data-aos="zoom-out-down">
+            <Col xl={6} lg={6} md={12} sm={12} >
             <a href='https://mastransporte.cl/' target='_BLANK'>
               <img className='img-empresa' src={Mt}/>
               <img className='img-empresa-bw' src={Mtbw}/>

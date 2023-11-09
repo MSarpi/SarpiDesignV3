@@ -243,14 +243,14 @@ nav .navHeader:hover {
 }
 
 .animolob{
-	top: 50%;
-	bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
+	margin-top: 50rem;
+	top: -100%;
 	left: 50%; /* Centra el span en el contenedor */
 	transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 	z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
     position: absolute;
-    height: 30vw;
-    width: 30vw;
+    height: 37vw;
+    width: 37vw;
     transform: translate(-50%, -50%);
     background-color: #fe6e1a;
     background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -714,23 +714,24 @@ transform: scale(1.06);
 		position: relative;
 		  z-index: 2; /* Asegúrate de que este z-index sea mayor que el del span animolob */
 	}
-	.contenedor-imagenes img {
-		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
-		width: 80%; /* Ajusta al tamaño del contenedor */
-		margin-left: .6rem;
-	}
+
 	.portada-right {
 		z-index: 2; /* Mayor z-index */
 	}
+
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
-		left: 45%; /* Centra el span en el contenedor */
+		margin-top: 35rem;
+		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 30vw;
-		width: 30vw;
+		height: 36vw;
+		width: 36vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -846,22 +847,29 @@ transform: scale(1.06);
 		position: relative;
 		z-index: 2; /* Asegúrate de que este z-index sea mayor que el del span animolob */
 	}
-	.contenedor-imagenes img {
-		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
-		width: 80%; /* Ajusta al tamaño del contenedor */
-	}
 	.portada-right {
 		z-index: 2; /* Mayor z-index */
 	}
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
-		left: 45%; /* Centra el span en el contenedor */
+		margin-top: 23rem;
+		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 30vw;
-		width: 30vw;
+		height: 35vw;
+		width: 35vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -935,6 +943,27 @@ transform: scale(1.06);
 	
 	.myvoz-content{
 		font-size: 1.2rem;
+	}
+
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
+	.animolob{
+		margin-top: 21rem;
+		left: 45%; /* Centra el span en el contenedor */
+		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
+		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
+		position: absolute;
+		height: 35vw;
+		width: 35vw;
+		transform: translate(-50%, -50%);
+		background-color: #fe6e1a;
+		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
+		animation: animate_blod 8s linear infinite;
+		z-index: -1;
 	}
 }
 
@@ -1021,22 +1050,23 @@ transform: scale(1.06);
 		position: relative;
 		z-index: 2; /* Asegúrate de que este z-index sea mayor que el del span animolob */
 	}
-	.contenedor-imagenes img {
-		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
-		width: 80%; /* Ajusta al tamaño del contenedor */
-	}
 	.portada-right {
 		z-index: 2; /* Mayor z-index */
 	}
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
-		left: 45%; /* Centra el span en el contenedor */
+		margin-top: 18rem;
+		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 30vw;
-		width: 30vw;
+		height: 35vw;
+		width: 35vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -1146,24 +1176,24 @@ transform: scale(1.06);
 		z-index: 2; /* Asegúrate de que este z-index sea mayor que el del span animolob */
 	}
 
-	.contenedor-imagenes img {
-		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
-		width: 80%; /* Ajusta al tamaño del contenedor */
-	}
-
 	.portada-right {
 		z-index: 2; /* Mayor z-index */
 	}
 
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
-		left: 45%; /* Centra el span en el contenedor */
+		margin-top: 14rem;
+		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 30vw;
-		width: 30vw;
+		height: 35vw;
+		width: 35vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -1349,15 +1379,20 @@ transform: scale(1.06);
         font-size: 3rem;
     }
 
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
-		left: 50%; /* Centra el span en el contenedor */
+		margin-top: 9rem;
+		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 30vw;
-		width: 30vw;
+		height: 35vw;
+		width: 35vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
@@ -1388,6 +1423,7 @@ transform: scale(1.06);
 }
 
 @media (max-width: 640px) {
+	
 	.redireccion-proyect{
 		font-size: 2rem;
 		transition: 1s ease all;
@@ -1441,21 +1477,27 @@ transform: scale(1.06);
 		margin-bottom: 1rem;
     }
 
+	.contenedor-imagenes img {
+		grid-area: 1 / 1; /* Coloca ambas imágenes en la misma área de la cuadrícula */
+		width: 100%; /* Ajusta al tamaño del contenedor */
+		margin-left: .6rem;
+	}
+
 	.animolob{
-		top: 50%;
-		bottom: 0; /* Posiciónalo en la parte inferior del contenedor */
+		margin-top: 13rem;
 		left: 50%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
 		position: absolute;
-		height: 80vw;
-		width: 80vw;
+		height: 95vw;
+		width: 95vw;
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
 		animation: animate_blod 8s linear infinite;
 		z-index: -1;
 	}
+
 
 	.Sub-titulo-secciones{
 		font-size: 1rem;
@@ -1468,7 +1510,7 @@ transform: scale(1.06);
 		height: 100vh;
 	}
 	.titulo-secciones{
-		padding-top: 2rem;
+		padding-top: 10rem;
 	}
     .text-portada-p1{
         margin-bottom: -1rem;
@@ -1491,7 +1533,7 @@ transform: scale(1.06);
 		height: 100%;
 		width:100%;
 		display: flex;
-		flex-direction: column;
+		flex-direction: column; 
 		align-items: center;
 		justify-content: center;
 		transition: 1s;

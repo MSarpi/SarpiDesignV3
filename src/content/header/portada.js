@@ -41,11 +41,12 @@ export const portada = ({ darkMode, toggleDarkMode }) => {
               </div> 
           </div>
         </div>
-        <div className='col-sm-12 col-md-6 col-lg-6 portada-right'  data-aos="fade-left">
+        <div className='col-sm-12 col-md-6 col-lg-6 portada-right'  data-aos="">
           <div className='contenedor-imagenes'  onClick={toggleDarkMode} >
-            <span className='animolob'></span> 
+            <span className='animolob'>
             <img className='portada-sin-color img-fluid sincolor' src={ImgSinColor} alt="Imagen sin color" o/>
             <img className='portada-con-color wave img-fluid concolor' src={ImgConColor} alt="Imagen con color"/>
+            </span> 
           </div>
         </div>
     </div>

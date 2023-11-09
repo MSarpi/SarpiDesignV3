@@ -21,9 +21,9 @@ function Proyectos() {
   return (
     <Container className='size-card ' id='proyectos'>
         <div className='margin-top'></div>
-        <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-down">Mis <span className='secciones'>Proyectos</span> y <span className='secciones'>Trabajos</span></p></strong>
+        <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-up">Mis <span className='secciones'>Proyectos</span> y <span className='secciones'>Trabajos</span></p></strong>
         <Row>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={miweb} />
                     <Card.Body className='card-body-proyect'>
@@ -38,7 +38,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={pokedex} />
                     <Card.Body className='card-body-proyect'>
@@ -64,7 +64,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={myvoz} />
                     <Card.Body className='card-body-proyect'>
@@ -79,7 +79,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={calculadora} />
                     <Card.Body className='card-body-proyect'>
@@ -101,7 +101,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={ms} />
                     <Card.Body className='card-body-proyect'>
@@ -116,7 +116,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={tloz} />
                     <Card.Body className='card-body-proyect'>
@@ -138,9 +138,9 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={si} />
                     <Card.Body className='card-body-proyect'>
@@ -162,7 +162,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} data-aos="flip-left" className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
             </Col>
         </Row>
     </Container>

@@ -7,10 +7,10 @@ Aos.init();
 const Mishabilidades = () => {
   return (
     <Container className='size-card' id='habilidades'>
-      <strong><p className="text-center mt-4 mb-4 titulo-secciones" data-aos="fade-down">Mis <span className='secciones'>Habilidades</span></p></strong>
+      <strong><p className="text-center mt-4 mb-4 titulo-secciones" data-aos="fade-up">Mis <span className='secciones'>Habilidades</span></p></strong>
       <Row className="d-flex justify-content-center">
         <Col md={4} className="mb-4">
-          <Card className='border-card-ability border-card-ability card-ability' data-aos="zoom-in-up">
+          <Card className='border-card-ability border-card-ability card-ability' >
             <p className='icono-habilidades'><i class="fa-solid fa-pen-fancy fa-shake"></i></p>
             <Card.Body className='card-body-ability'>
               <Card.Title className='titulo-habilidad'><strong><p>Diseño</p></strong></Card.Title>
@@ -37,7 +37,7 @@ const Mishabilidades = () => {
           </Card>
         </Col>
         <Col md={4} className="mb-4">
-        <Card className='border-card-ability border-card-ability card-ability' data-aos="zoom-in-up">
+        <Card className='border-card-ability border-card-ability card-ability' >
             <p className='icono-habilidades'><i class="fa-solid fa-computer fa-bounce"></i></p>
             <Card.Body className='card-body-ability'>
               <Card.Title className='titulo-habilidad'><strong><p>Frontend Developer</p></strong></Card.Title>
@@ -63,7 +63,7 @@ const Mishabilidades = () => {
           </Card>
         </Col>
         <Col md={4} className="mb-4">
-        <Card className='border-card-ability border-card-ability card-ability' data-aos="zoom-in-up">
+        <Card className='border-card-ability border-card-ability card-ability' >
             <p className='icono-habilidades'><i class="fa-solid fa-laptop-code fa-beat"></i></p>
             <Card.Body className='card-body-ability'>
               <Card.Title className='titulo-habilidad'><strong><p>Backend Developer</p></strong></Card.Title>
