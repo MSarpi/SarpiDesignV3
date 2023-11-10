@@ -17,7 +17,7 @@ function Empresas() {
     <Container className='container_empresa' id='empresas'>
         <div className='margin-top'></div>
         <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-up"><span className='secciones'>Empresas</span></p></strong>
-        <p className='Sub-titulo-secciones' data-aos="fade-down">Estas son las empresas a las que he dado mis servicios como Programador.</p>
+        <p className='Sub-titulo-secciones'>Estas son las empresas a las que he dado mis servicios como Programador.</p>
         <Row className='img-empresas'> 
             <Col xl={6} lg={6} md={12} sm={12} >
             <a href='https://sitio.consorcio.cl/home' target='_BLANK'>

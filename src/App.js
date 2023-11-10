@@ -13,6 +13,7 @@ import Proyectos from './content/body/Proyectos';
 import ScrollButton from './content/ScrollUp';
 import Loader from './content/Loader';
 import MaquinaEscribir from './content/efectos/MaquinaEscribir';
+import Formulario from './content/body/Formulario';
 
 function App() {
   const mensajes = [
@@ -37,6 +38,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
     <>
       <div className={`loading-screen ${isLoading ? '' : 'hidden'}`}>
@@ -50,8 +52,8 @@ function App() {
         <Mishabilidades/>
         <Empresas/>
         <Certificados/>
-        
         <Proyectos/>
+        <Formulario/>
         <Footer/>
         <ScrollButton/>
     </div>

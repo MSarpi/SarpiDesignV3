@@ -124,6 +124,13 @@ nav .navHeader:hover {
 	color: #ededed;
 }
 
+.container-dark .titulo-form{
+	color: #EDEDED;
+}
+
+.container-dark .Formulario-design{
+	background-color: #EDEDED;
+}
 .container-light .nav-btn {
 	padding: 5px;
 	cursor: pointer;
@@ -336,6 +343,7 @@ nav .navHeader:hover {
 }
 
 .img-modal{
+	margin-top: 8rem;
 	width: 100%;
 }
 
@@ -633,6 +641,36 @@ transform: scale(1.06);
   
   .scroll-button.visible {
 	opacity: 1;
+  }
+
+  .Formulario-design{
+	margin: 2rem 8rem 4rem 8rem;
+	padding: 1rem;
+	border: 2px solid #75004e;
+	border-radius: 8px;
+	background-color: white;
+  }
+
+  .btn-mood-form{
+	border: 2px solid  #550039;
+	background-color: #550039 !important;
+	color: #ededed !important;
+	font-size: 1.5rem !important;
+	transition: 1s all ease;
+  }
+
+  .btn-mood-form:hover{
+	border: 1px solid  #550039 !important;
+	background-color: #ededed !important;
+	color: #550039 !important;
+	font-size: 1.5rem !important;
+	
+
+  }
+
+  .logo-carousel{
+	width: 100%;
+	/* background-color: #ffffff; */
   }
 @media (max-width: 2560px) {
 
@@ -1342,6 +1380,7 @@ transform: scale(1.06);
 }
 
 @media (max-width: 852px) {
+	
 	.scroll-button {
 		position: fixed;
 		bottom: 30px;
@@ -1451,7 +1490,13 @@ transform: scale(1.06);
 }
 
 @media (max-width: 640px) {
-	
+	.logo-carousel{
+		padding: 1rem !important;
+	}
+
+	.Formulario-design{
+		margin: 2rem 0 4rem 0;
+	  }
 	.redireccion-proyect{
 		font-size: 2rem;
 		transition: 1s ease all;
@@ -1534,6 +1579,9 @@ transform: scale(1.06);
 }
 
 @media (max-width: 320px) {
+	.logo-carousel{
+		padding: 2rem !important;
+	}
 	.container-fluid{
 		height: 100vh;
 	}

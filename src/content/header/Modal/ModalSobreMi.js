@@ -6,7 +6,8 @@ import Modal from 'react-bootstrap/Modal';
 import Row from 'react-bootstrap/Row';
 import ImgSinColor from '../../assets/img/portadabyw.png'
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
+import Extension from './ExtensionModal';
 Aos.init();
 function SobreMi() {
   const [show, setShow] = useState(false);
@@ -43,7 +44,12 @@ function SobreMi() {
                     En mi tiempo libre, disfruto dibujar y crear videojuegos RPG con RPG Maker, así como dar paseos y disfrutar de espacios verdes.
                 </Col>
                 <Col xs={12} md={12} lg={12} xl={6}>
+                    <div>
+                    <Extension/>
+                    </div>
+                    <div>
                     <img className='img-modal' src={ImgSinColor}/>
+                    </div>
                 </Col>
             </Row>
             </Container>
