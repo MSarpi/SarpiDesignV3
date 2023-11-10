@@ -12,8 +12,14 @@ import Footer from './content/footer/Footer';
 import Proyectos from './content/body/Proyectos';
 import ScrollButton from './content/ScrollUp';
 import Loader from './content/Loader';
+import MaquinaEscribir from './content/efectos/MaquinaEscribir';
 
 function App() {
+  const mensajes = [
+    "Bienvenido a SarpiDesign",
+    "npm start"
+  ];
+  
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -23,46 +29,35 @@ function App() {
   const containerClass = darkMode ? 'container-dark' : 'container-light';
 
   const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3200);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
-        <div className={`${containerClass}`}> 
-    <Navbar darkMode={darkMode}/>
-    <Portada darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-    <Mishabilidades/>
-    <Empresas/>
-    <Certificados/>
-    
-    <Proyectos/>
-    <Footer/>
-    <ScrollButton/>
-  </div>
-  );
+    <>
+      <div className={`loading-screen ${isLoading ? '' : 'hidden'}`}>
+        <div>
+          <MaquinaEscribir mensajes={mensajes} velocidad={100} />
+        </div>{/* Puedes agregar contenido adicional dentro del div de carga si lo deseas */}
+      </div>
+      <div className={`${containerClass}`}> 
+        <Navbar darkMode={darkMode}/>
+        <Portada darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+        <Mishabilidades/>
+        <Empresas/>
+        <Certificados/>
+        
+        <Proyectos/>
+        <Footer/>
+        <ScrollButton/>
+    </div>
+    </>
+
+    );
   }
-  // Let create async method to fetch fake data
-//   useEffect(() => {
-//     const fakeDataFetch = () => {
-//       setTimeout(() => {
-//         setIsLoading(false);
-//       }, 4000);
-//     };
-
-//     fakeDataFetch();
-//   }, []);
-
-//   return isLoading ? (
-//     <Loader />
-//   ) : (
-//     <div className={`${containerClass}`}> 
-//     <Navbar darkMode={darkMode}/>
-//     <Portada darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-//     <Mishabilidades/>
-//     <Empresas/>
-//     <Certificados/>
-    
-//     <Proyectos/>
-//     <Footer/>
-//     <ScrollButton/>
-//   </div>
-//   );
-// }
 
 export default App;

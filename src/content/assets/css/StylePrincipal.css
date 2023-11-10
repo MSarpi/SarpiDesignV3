@@ -7,6 +7,34 @@
 	--textColor: #000000;
     --textColorMobile: #ededed;
 }
+.loading-screen {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background-color: #ededed;
+	z-index: 999;
+	opacity: 1;
+	clip-path: circle(100% at 50% 50%); /* Inicia como un círculo invisible */
+	transition: clip-path 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .loading-screen.hidden {
+	clip-path: circle(0% at 50% 50%); /* Termina como un círculo completo */
+	opacity: 1;
+	pointer-events: none;
+  }
+  
+  /* Agrega un estilo de transición suave al contenido debajo */
+  .content {
+	opacity: 0;
+	transition: opacity 0.5s ease;
+  }
+  
+  /* Estilo para mostrar el contenido después de que desaparezca la pantalla de carga */
+  .content.show {
+	opacity: 1;
+  }
+  
 
 .margin-top{
 	margin-top: 7rem;
@@ -254,7 +282,7 @@ nav .navHeader:hover {
     transform: translate(-50%, -50%);
     background-color: #fe6e1a;
     background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-    animation: animate_blod 8s linear infinite;
+    animation: animate_blod 15s linear infinite;
     z-index: -1;
 }
 
@@ -725,7 +753,7 @@ transform: scale(1.06);
 		margin-left: .6rem;
 	}
 	.animolob{
-		margin-top: 35rem;
+		margin-top: 32rem;
 		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
@@ -735,7 +763,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 	.size-card{
@@ -863,7 +891,7 @@ transform: scale(1.06);
 	}
 
 	.animolob{
-		margin-top: 23rem;
+		margin-top: 21.5rem;
 		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
@@ -873,7 +901,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 	.btn-header{
@@ -962,7 +990,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 }
@@ -1060,7 +1088,7 @@ transform: scale(1.06);
 	}
 
 	.animolob{
-		margin-top: 18rem;
+		margin-top: 16rem;
 		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
@@ -1070,7 +1098,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 }
@@ -1187,7 +1215,7 @@ transform: scale(1.06);
 	}
 
 	.animolob{
-		margin-top: 14rem;
+		margin-top: 12rem;
 		left: 40%; /* Centra el span en el contenedor */
 		transform: translate(-50%, 50%); /* Ajusta la posición para centrar exactamente debajo */
 		z-index: 1; /* Asegúrate de que este z-index sea menor para que aparezca debajo de las imágenes */
@@ -1197,7 +1225,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 
@@ -1396,7 +1424,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 
@@ -1494,7 +1522,7 @@ transform: scale(1.06);
 		transform: translate(-50%, -50%);
 		background-color: #fe6e1a;
 		background-image: linear-gradient(62deg, #550039 0%, #bb007d 100%);
-		animation: animate_blod 8s linear infinite;
+		animation: animate_blod 15s linear infinite;
 		z-index: -1;
 	}
 

@@ -22,3 +22,17 @@
     transform: translate(.4rem);
     margin-top: 1rem;
 }
+
+.loader-header {
+    z-index: 11;
+    background: linear-gradient(to right, #550039, #bb007d); /* Establece el gradiente */
+    -webkit-background-clip: text; /* Aplica el degradado solo al texto */
+    background-clip: text; /* Aplica el degradado solo al texto */
+    color: transparent; /* Hace que el texto sea transparente */
+    font-weight: bolder;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
