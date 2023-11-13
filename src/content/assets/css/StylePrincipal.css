@@ -1579,6 +1579,9 @@ transform: scale(1.06);
 }
 
 @media (max-width: 320px) {
+	.contenido-card{
+		height: 150px;
+	}
 	.logo-carousel{
 		padding: 2rem !important;
 	}

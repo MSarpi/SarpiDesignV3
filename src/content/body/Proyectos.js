@@ -58,8 +58,6 @@ function Proyectos() {
                             </Col>
                         </Row>
                         </Container>
-
-                        
                     </Card.Text>
                     </Card.Body>
                 </Card>
