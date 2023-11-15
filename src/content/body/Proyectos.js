@@ -51,10 +51,10 @@ function Proyectos() {
                         <Container>
                         <Row>
                             <Col>
-                                <a href='https://github.com/MSarpi/apipokemon.git' target='_BLANK'><i class="fa-brands fa-github redireccion-proyect"></i></a>
+                                <a href='https://github.com/MSarpi/ApiPokemon-V2.git' target='_BLANK'><i class="fa-brands fa-github redireccion-proyect"></i></a>
                             </Col>
                             <Col>
-                                <a href='https://github.com/MSarpi/ApiPokemon-V2.git' target='_BLANK'><i class="fa-brands fa-internet-explorer redireccion-proyect"></i></a>
+                                <a href='https://pokedex-pokemon-v2.netlify.app/' target='_BLANK'><i class="fa-brands fa-internet-explorer redireccion-proyect"></i></a>
                             </Col>
                         </Row>
                         </Container>
