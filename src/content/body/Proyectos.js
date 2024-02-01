@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-
+ 
 import miweb from '../assets/img/miweb.png';
 import pokedex from '../assets/img/pokedex.png';
 import myvoz from '../assets/img/myvoz.png';
@@ -13,9 +13,11 @@ import si from '../assets/gif/si.gif';
 import MiWeb from './Modal/MiWeb';
 import MyVoz from './Modal/MyVoz';
 import MasTransporte from './Modal/MasTransporte';
+import FacelessBg from '../assets/img/facelesslogin.jpg';
 
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import Faceless from './Modal/Faceless';
 Aos.init();
 function Proyectos() {
   return (
@@ -25,15 +27,15 @@ function Proyectos() {
         <Row>
             <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
-                    <Card.Img variant="top" src={miweb} />
+                    <Card.Img variant="top" src={FacelessBg} />
                     <Card.Body className='card-body-proyect'>
-                    <Card.Title className='text-center'><span className='card-title-proyect'>Mi Web</span></Card.Title>
+                    <Card.Title className='text-center'><span className='card-title-proyect'>Faceless</span></Card.Title>
                     <Card.Text className='contenido-card'>
-                        <span className='card-content-proyect'>Muestro la evolución de mi portafolio, del más antiguo al más actual, usando diversas formas para crear páginas web, con o sin frameworks.</span>
+                        <span className='card-content-proyect'>MyFaceless es una aplicación de libre uso inspirada en el diseño de Instagram con un diseño mas simple y agradable para el usuario. Esta hecho con Laravel 10 y PHP 8.1</span>
                     </Card.Text>
                     <hr class="border-gray-600"/>
                     <Card.Text className='text-center'>
-                        <MiWeb/>
+                        <Faceless/>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -116,6 +118,21 @@ function Proyectos() {
             </Col>
             <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
+                    <Card.Img variant="top" src={miweb} />
+                    <Card.Body className='card-body-proyect'>
+                    <Card.Title className='text-center'><span className='card-title-proyect'>Mi Web</span></Card.Title>
+                    <Card.Text className='contenido-card'>
+                        <span className='card-content-proyect'>Muestro la evolución de mi portafolio, del más antiguo al más actual, usando diversas formas para crear páginas web, con o sin frameworks.</span>
+                    </Card.Text>
+                    <hr class="border-gray-600"/>
+                    <Card.Text className='text-center'>
+                        <MiWeb/>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+            <Col xl={6} lg={6} md={12} sm={12} className='padding-card'>
+                <Card  className='border-card'>
                     <Card.Img variant="top" src={tloz} />
                     <Card.Body className='card-body-proyect'>
                     <Card.Title className='text-center'><span className='card-title-proyect'>The legend of zelda</span> </Card.Title>
@@ -136,9 +153,9 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
-            </Col>
-            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
+            {/* <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
+            </Col> */}
+            <Col xl={6} lg={6} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={si} />
                     <Card.Body className='card-body-proyect'>
@@ -160,8 +177,11 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
-            </Col>
+            
+            {/* <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
+            </Col> */}
+
+            
         </Row>
     </Container>
   );
