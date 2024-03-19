@@ -12,8 +12,10 @@ import tloz from '../assets/gif/tloz.gif';
 import si from '../assets/gif/si.gif';
 import MiWeb from './Modal/MiWeb';
 import MyVoz from './Modal/MyVoz';
+import MyJobs from './Modal/MyJob';
 import MasTransporte from './Modal/MasTransporte';
 import FacelessBg from '../assets/img/facelesslogin.jpg';
+import MyJob from '../assets/img/myjob1.jpg';
 
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -25,6 +27,21 @@ function Proyectos() {
         <div className='margin-top'></div>
         <strong><p className="text-center mt-4 mb-4 titulo-secciones"  data-aos="fade-up">Mis <span className='secciones'>Proyectos</span> y <span className='secciones'>Trabajos</span></p></strong>
         <Row>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
+                <Card  className='border-card'>
+                    <Card.Img variant="top" src={MyJob} />
+                    <Card.Body className='card-body-proyect'>
+                    <Card.Title className='text-center'><span className='card-title-proyect'>MyJob's</span></Card.Title>
+                    <Card.Text className='contenido-card'>
+                        <span className='card-content-proyect'>MyJob's es una aplicacion para buscar empleos en donde el usuario solo tiene que subir su cv, nada de formularios o rellenar campos innecesarios. Esta hecho con Laravel 10 y PHP 8.1</span>
+                    </Card.Text>
+                    <hr class="border-gray-600"/>
+                    <Card.Text className='text-center'>
+                        <MyJobs/>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
             <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={FacelessBg} />
@@ -131,7 +148,7 @@ function Proyectos() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xl={6} lg={6} md={12} sm={12} className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={tloz} />
                     <Card.Body className='card-body-proyect'>
@@ -155,7 +172,7 @@ function Proyectos() {
             </Col>
             {/* <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
             </Col> */}
-            <Col xl={6} lg={6} md={12} sm={12} className='padding-card'>
+            <Col xl={4} lg={4} md={12} sm={12} className='padding-card'>
                 <Card  className='border-card'>
                     <Card.Img variant="top" src={si} />
                     <Card.Body className='card-body-proyect'>
