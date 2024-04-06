@@ -1,7 +1,7 @@
 import ImgSinColor from '../assets/img/portada-sin-color.png';
 import ImgConColor from '../assets/img/portada-con-color.png';
 import Maquita from './Efectos/Maquina';
-import Documento from '../../../src/cvmiguelsarpi2023.pdf'
+import Documento from '../../../src/CvMiguelSarpi2024.pdf'
 import ModalSobreMi from './Modal/ModalSobreMi'
 import React, { useState } from 'react';
 import Aos from "aos";
@@ -36,7 +36,7 @@ export const portada = ({ darkMode, toggleDarkMode }) => {
             </div>
             <div className='row '>
               <div className='col-12 btn-header-mood'>
-                <a className='btn-header'  href={Documento} download="CvMiguelSarpi2023">Descargar CV</a>
+                <a className='btn-header'  href={Documento} download="Cv-MiguelSarpi-2024">Descargar CV</a>
                 <ModalSobreMi/>
               </div> 
           </div>
